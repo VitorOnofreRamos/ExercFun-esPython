@@ -13,6 +13,6 @@ def descobrir_poligono(numerodelados):
         case _:
             print('VALOR INVÁLIDO')
 
-n = int(input('Digite um número: '))
+n = int(input('Digite o número de lados de um polígono: '))
 
 descobrir_poligono(n)

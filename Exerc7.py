@@ -1,3 +1,7 @@
+"""
+Tabuada de um número
+"""
+
 def ler_numero():
     numero = int(input('Digite um Número Inteiro: '))
     return numero

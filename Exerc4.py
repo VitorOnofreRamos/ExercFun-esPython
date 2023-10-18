@@ -1,3 +1,7 @@
+"""
+Par ou Impar
+"""
+
 def par_ou_impar(numero):
     if numero % 2 == 0:
         return True
@@ -6,4 +10,7 @@ def par_ou_impar(numero):
 
 n = int(input('Digite um número: '))
 
-print(f'{par_ou_impar(n)}')
+if par_ou_impar == True:
+    print(f"O númeor '{n}' é Par")
+elif par_ou_impar == False:
+    print(f"O númeor '{n}' é Impar")
